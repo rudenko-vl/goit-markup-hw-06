@@ -553,7 +553,9 @@ body {
   height: 86px;
   margin-left: 93px;
 }
-
+.mailing-form-footer {
+  display: flex;
+}
 .mailing-title {
   font-weight: 700;
   font-size: 14px;
@@ -595,11 +597,19 @@ body {
   text-align: center;
   letter-spacing: 1.88;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .icon-send {
   fill: #ffffff;
   margin-left: 10px;
 }
+.btn-mail-foot:hover {
+  background-color: #188ce8;
+}
+
 /* ----------END FOOTER------ */
 
 /* -----Modal windov---- */
