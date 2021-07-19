@@ -553,6 +553,7 @@ body {
   height: 86px;
   margin-left: 93px;
 }
+
 .mailing-title {
   font-weight: 700;
   font-size: 14px;
@@ -566,13 +567,15 @@ body {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
   padding-top: 15px;
   padding-left: 16px;
   padding-bottom: 15px;
+}
+.mail-field-foot:focus {
+  outline: none;
 }
 .btn-mail-foot {
   display: inline-flex;
@@ -679,7 +682,7 @@ body {
   border-radius: 4px;
   margin-top: 4px;
   padding-left: 42px;
-  transition-property: fill;
+  transition-property: fill, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
@@ -732,9 +735,17 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .modal-form-btn {
   align-self: center;
+}
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #188ce8;
 }
 /* ----------PORTFOLIO--------- */
 
