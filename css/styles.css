@@ -563,6 +563,9 @@ body {
   height: 86px;
   margin-left: 93px;
 }
+.mailing-form-footer {
+  display: flex;
+}
 .mailing-title {
   font-weight: 700;
   font-size: 14px;
@@ -576,7 +579,6 @@ body {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
   border-radius: 4px;
   color: #ffffff;
   background-color: #2f303a;
@@ -618,6 +620,10 @@ body {
   fill: #ffffff;
   margin-left: 10px;
 }
+.btn-mail-foot:hover {
+  background-color: #188ce8;
+}
+
 /* ----------END FOOTER------ */
 
 /* -----Modal windov---- */
